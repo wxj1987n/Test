@@ -1,0 +1,48 @@
+﻿<resources>
+
+    <string name="app_name">云知声语音</string>
+    <string name="menu_settings">Settings</string>
+	<string name="lbl_set_domain">识别领域</string>
+    <string  name="lbl_set_language">语  言</string>
+    <string name="btn_close_config">完成</string>
+    <string name="lbl_set_rate">采样率</string>
+    <string  name="recognizer">开始识别</string>
+     <string  name="start_tts">开始合成</string>
+     <string  name="stop_tts">停止合成</string>
+    <string  name="title_name">云知声语音示例</string>
+    <string  name="select_setting">选择设置</string>
+    <string  name="general">通用识别</string>
+    <string name="poi">地名识别</string>
+    <string  name="song">歌名识别</string>
+    <string  name="movietv">影视名识别</string>
+    <string  name="medical">医药领域识别</string>
+    <string  name="volume">音量  : </string>
+    <string  name="status">状态  : </string>
+    <string  name="please_speak">请说话</string>
+   <string  name="speaking">说话中</string>
+ <string name="recognizer_result">识别结果 :</string>
+ <string name="cancel">取消</string>
+ <string  name="say_over">说完了</string>
+ <string name="click_say">点击说话</string>
+ <string name="no_hear_sound">没有听到声音</string>
+ <string name="info_upload_success">个性化信息上传成功</string>
+ <string name="give_up"> 放弃</string>
+  <string name="opening_recode_devices"> 正在打开录音设备</string>
+  <string name="just_recognizer">正在识别</string>
+      <string  name="chinese">普通话</string>
+    <string name="english">英语</string>
+    <string name="cantonese">粤语</string>
+    <string  name="test_tts_source"> 北京云知声信息技术有限公司，是专注于语音识别及语言处理技术的移动互联网公司，拥有完全自主知识产权的世界顶尖的智能语音识别和语义理解技术。
+        借助云计算平台和移动互联网技术，云知声已推出了一系列语音识别和语义理解的中间件及服务云平台，为互联网企业和用户提供专业的智能语音服务。</string>
+    
+    <string name="function_select">功能选择</string>
+    <string  name="asr_online_function">在线功能</string>
+    <string  name="asr_offline_function">本地命令词</string>
+    <string  name="wakeup_offline_function">本地唤醒</string>
+    <string name="tts_offline_function">本地合成</string>
+    <string name="lable_status">识别状态:</string>
+     <string name="button_asr_start">开始</string>
+    <string name="button_asr_stop">停止</string>
+    <string name="recognizer_result_text">语音识别结果</string>
+    <string name="nlu_result_text">语义解析结果</string>
+</resources>

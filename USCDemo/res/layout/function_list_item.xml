@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/asr_online_text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/textview_select_style"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="@string/asr_online_function"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="visible" />  <!-- E-ASR- --> 
+       
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3E3E3E"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/asr_offline_text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/textview_select_style"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="@string/asr_offline_function"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="gone"/>  <!-- E-FIX- -->
+        
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3E3E3E"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/wakeup_offline_text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/textview_select_style"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="@string/wakeup_offline_function"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" 
+        android:visibility="gone" /><!-- E-WAKEUP- -->
+        
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3E3E3E"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tts_offline_text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/textview_select_style"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:text="@string/tts_offline_function"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" 
+        android:visibility="gone" /> <!-- E-TTSOFFLINE- -->
+        
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3E3E3E"
+        android:scaleType="fitXY" />
+
+</LinearLayout>
